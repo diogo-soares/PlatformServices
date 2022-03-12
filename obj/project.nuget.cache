@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "38sF31482I8Gx6kVxYbsDvbN/cT/5qOc+elB7dsaogvu5NjkHPahtPKd7WA+Ul331Tg+No+2MEkUC6az94ZpZA==",
-  "success": false,
+  "dgSpecHash": "tqzfkdg5MS94nScXKHSkCpbR2RSj6De5KtZE5qQWKnjlh95jYLehLQHxkUvF33/oL6pQIbtBGTzjNJDM4qYolQ==",
+  "success": true,
   "projectFilePath": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\PlatformServices\\PlatformServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
@@ -15,8 +15,8 @@
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.8\\microsoft.entityframeworkcore.analyzers.5.0.8.nupkg.sha512",
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.8\\microsoft.entityframeworkcore.design.5.0.8.nupkg.sha512",
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\5.0.8\\microsoft.entityframeworkcore.inmemory.5.0.8.nupkg.sha512",
-    "C:\\Users\\Diogo Timeware\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.15\\microsoft.entityframeworkcore.relational.5.0.15.nupkg.sha512",
-    "C:\\Users\\Diogo Timeware\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.15\\microsoft.entityframeworkcore.sqlserver.5.0.15.nupkg.sha512",
+    "C:\\Users\\Diogo Timeware\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.8\\microsoft.entityframeworkcore.relational.5.0.8.nupkg.sha512",
+    "C:\\Users\\Diogo Timeware\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.8\\microsoft.entityframeworkcore.sqlserver.5.0.8.nupkg.sha512",
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
@@ -110,15 +110,5 @@
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: Microsoft.EntityFrameworkCore from 5.0.15 to 5.0.8. Reference the package directly from the project to select a different version. \r\n PlatformServices -> Microsoft.EntityFrameworkCore.SqlServer 5.0.15 -> Microsoft.EntityFrameworkCore.Relational 5.0.15 -> Microsoft.EntityFrameworkCore (>= 5.0.15) \r\n PlatformServices -> Microsoft.EntityFrameworkCore (>= 5.0.8)",
-      "libraryId": "Microsoft.EntityFrameworkCore",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  "logs": []
 }
