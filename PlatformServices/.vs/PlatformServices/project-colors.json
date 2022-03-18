@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "12a09731-1b30-4204-8cfd-a1fb156ac263": {
+      "ProjectGuid": "12a09731-1b30-4204-8cfd-a1fb156ac263",
+      "DisplayName": "PlatformServices",
+      "ColorIndex": 0
+    },
+    "0d5edf09-66be-4fcd-b791-54a306bd0f90": {
+      "ProjectGuid": "0d5edf09-66be-4fcd-b791-54a306bd0f90",
+      "DisplayName": "PlatformServices",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

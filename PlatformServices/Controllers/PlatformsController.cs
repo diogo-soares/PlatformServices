@@ -5,11 +5,12 @@ using Microsoft.AspNetCore.Mvc;
 using PlatformServices.Data;
 using PlatformServices.Dtos;
 using PlatformServices.Models;
+using System.Threading.Tasks;
 using PlatformServices.SyncDataServices.Http;
 
 namespace PlatformServices.Controllers
 {
-    [Route("api/v1/[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class PlatformsController : ControllerBase
     {
@@ -39,8 +40,8 @@ namespace PlatformServices.Controllers
 
             return platformItem == null ? NotFound() : Ok(_mapper.Map<PlatformReadDto>(platformItem));
         }
-
-        public async ActionResult<PlatformReadDto> CreatePlatform(PlatformCreateDto platformCreateDto)
+        [HttpPost]
+        public async Task<ActionResult<PlatformReadDto>> CreatePlatform(PlatformCreateDto platformCreateDto)
         {
             var platformModel = _mapper.Map<Platform>(platformCreateDto);
             _repository.CreatePlatform(platformModel);
@@ -52,13 +53,12 @@ namespace PlatformServices.Controllers
             {
                 await _commandDataClient.SendPlatformToCommand(PlatformReadDto);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine($"--> cloud not send sync: {ex.Message}");
             }
 
             return CreatedAtRoute(nameof(GetPlatformsById), new { Id = PlatformReadDto.Id }, PlatformReadDto);
-
         }
     }
 }

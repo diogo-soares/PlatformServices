@@ -12,11 +12,16 @@ namespace PlatformServices.SyncDataServices.Http
     {
         private readonly HttpClient _httpClient;
         private readonly IConfiguration _configuration;
+        private readonly ICommandDataCliente _commandDataCliente;
 
-        public HttpCommandDataClient(HttpClient httpClient, IConfiguration configuration)
+        public HttpCommandDataClient(
+            HttpClient httpClient,
+            IConfiguration configuration,
+            ICommandDataCliente commandDataCliente)
         {
             _httpClient = httpClient;
             _configuration = configuration;
+            _commandDataCliente = commandDataCliente;
         }
 
         public async Task SendPlatformToCommand(PlatformReadDto plat)

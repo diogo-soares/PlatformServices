@@ -29,7 +29,7 @@ namespace PlatformServices
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<AppDbContext>(opt => 
+            services.AddDbContext<AppDbContext>(opt =>
                     opt.UseInMemoryDatabase("InMem"));
 
             services.AddScoped<IPlatformRepo, PlatformRepo>();
@@ -53,6 +53,8 @@ namespace PlatformServices
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "PlatformServices v1"));
             }
+
+            Console.WriteLine($"--> CommandService Endpoint {Configuration["CommandServices"]}");
 
             app.UseHttpsRedirection();
 
