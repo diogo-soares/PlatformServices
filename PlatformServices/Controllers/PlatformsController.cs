@@ -34,7 +34,7 @@ namespace PlatformServices.Controllers
         }
 
         [HttpGet("{id}", Name = "GetPlatformsById")]
-        public ActionResult<PlatformReadDto> GetPlatformsById(int id)
+        public ActionResult<PlatformReadDto> GetPlatformById(int id)
         {
             var platformItem = _repository.GetPlatformById(id);
 
@@ -47,18 +47,18 @@ namespace PlatformServices.Controllers
             _repository.CreatePlatform(platformModel);
             _repository.SaveChanges();
 
-            var PlatformReadDto = _mapper.Map<PlatformReadDto>(platformModel);
+            var platformReadDto = _mapper.Map<PlatformReadDto>(platformModel);
 
             try
             {
-                await _commandDataClient.SendPlatformToCommand(PlatformReadDto);
+                await _commandDataClient.SendPlatformToCommand(platformReadDto);
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"--> cloud not send sync: {ex.Message}");
+                Console.WriteLine($"--> Could not send synchronously: {ex.Message}");
             }
 
-            return CreatedAtRoute(nameof(GetPlatformsById), new { Id = PlatformReadDto.Id }, PlatformReadDto);
+            return CreatedAtRoute(nameof(GetPlatformById), new { Id = platformReadDto.Id }, platformReadDto);
         }
     }
 }
