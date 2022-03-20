@@ -16,9 +16,9 @@ namespace PlatformServices.Controllers
     {
         private readonly IPlatformRepo _repository;
         private readonly IMapper _mapper;
-        private readonly ICommandDataCliente _commandDataClient;
+        private readonly ICommandDataClient _commandDataClient;
 
-        public PlatformsController(IPlatformRepo repository, IMapper mapper, ICommandDataCliente commandDataClient)
+        public PlatformsController(IPlatformRepo repository, IMapper mapper, ICommandDataClient commandDataClient)
         {
             _repository = repository;
             _mapper = mapper;

@@ -1,28 +1,24 @@
-using System.Threading.Tasks;
-using PlatformServices.Dtos;
-using System.Net.Http;
-using Microsoft.Extensions.Configuration;
-using System.Text.Json;
-using System.Text;
 using System;
+using System.Net.Http;
+using System.Text;
+using System.Text.Json;
+using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
+using PlatformServices.Dtos;
 
 namespace PlatformServices.SyncDataServices.Http
 {
-    public class HttpCommandDataClient : ICommandDataCliente
+    public class HttpCommandDataClient : ICommandDataClient
     {
         private readonly HttpClient _httpClient;
         private readonly IConfiguration _configuration;
-        private readonly ICommandDataCliente _commandDataCliente;
 
-        public HttpCommandDataClient(
-            HttpClient httpClient,
-            IConfiguration configuration,
-            ICommandDataCliente commandDataCliente)
+        public HttpCommandDataClient(HttpClient httpClient, IConfiguration configuration)
         {
             _httpClient = httpClient;
             _configuration = configuration;
-            _commandDataCliente = commandDataCliente;
         }
+
 
         public async Task SendPlatformToCommand(PlatformReadDto plat)
         {
@@ -35,11 +31,11 @@ namespace PlatformServices.SyncDataServices.Http
 
             if (response.IsSuccessStatusCode)
             {
-                Console.WriteLine("Sync Post to CommandService Ok");
+                Console.WriteLine("--> Sync POST to CommandService was OK!");
             }
             else
             {
-                Console.WriteLine("Sync Post to CommandService was Not Ok!");
+                Console.WriteLine("--> Sync POST to CommandService was NOT OK!");
             }
         }
     }

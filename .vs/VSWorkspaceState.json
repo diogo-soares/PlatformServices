@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\PlatformServices",
+    "\\PlatformServices\\AsyncDataServices",
+    "\\PlatformServices\\AsyncDataServices\\Http",
+    "\\PlatformServices\\Controllers"
+  ],
+  "SelectedNode": "\\PlatformServices\\Startup.cs",
+  "PreviewInSolutionExplorer": false
+}

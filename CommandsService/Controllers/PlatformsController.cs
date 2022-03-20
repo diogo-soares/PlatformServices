@@ -15,7 +15,7 @@ namespace CommandsService.controller
         [HttpPost]
         public ActionResult TestInboundConnection()
         {
-            Console.WriteLine("--> Post Comands");
+            Console.WriteLine("--> Post Comands ok deu certo mano");
 
             return Ok("platform test of ");
         }

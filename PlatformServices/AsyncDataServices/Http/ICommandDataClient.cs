@@ -3,7 +3,7 @@ using PlatformServices.Dtos;
 
 namespace PlatformServices.SyncDataServices.Http
 {
-    public interface ICommandDataCliente
+    public interface ICommandDataClient
     {
         Task SendPlatformToCommand(PlatformReadDto plat);
     }

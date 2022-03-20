@@ -34,7 +34,7 @@ namespace PlatformServices
 
             services.AddScoped<IPlatformRepo, PlatformRepo>();
 
-            services.AddHttpClient<ICommandDataCliente, HttpCommandDataClient>();
+            services.AddHttpClient<ICommandDataClient, HttpCommandDataClient>();
 
             services.AddControllers();
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
