@@ -1,35 +1,35 @@
-  apiVersion: apps/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: platforms-depl
+  name: commands-depl
 spec:
   selector:
     matchLabels:
-      app: platformservices
+      app: commandservice
   replicas: 1
   template:
     metadata:
       labels:
-        app: platformservices
+        app: commandservice
     spec:
       # initContainers:
         # Init containers are exactly like regular containers, except:
           # - Init containers always run to completion.
           # - Each init container must complete successfully before the next one starts.
       containers:
-      - name:  platformservices
-        image:  binarythistle/platformservice:latest
+      - name:  commandservice
+        image:  binarythistle/commandservice:latest
 ---
 apiVersion: v1
 kind: Service
 metadata:
-   name:  platforms-clusterip-srv
+   name:  command-clusterip-srv
 spec:
   type: ClusterIP
   selector:
-    app: platformservices
+    app: commandservice
   ports:
-  - name:  platformservices
+  - name:  commandservice
     port:  80
     protocol: TCP
     targetPort: 80
