@@ -128,3 +128,4 @@ C:\Users\Diogo Timeware\Documents\Projetos\E3\PlatformServices\obj\Debug\net5.0\
 C:\Users\Diogo Timeware\Documents\Projetos\E3\PlatformServices\obj\Debug\net5.0\ref\PlatformServices.dll
 C:\Users\Diogo Timeware\Documents\Projetos\E3\PlatformServices\obj\Debug\net5.0\PlatformServices.pdb
 C:\Users\Diogo Timeware\Documents\Projetos\E3\PlatformServices\obj\Debug\net5.0\PlatformServices.genruntimeconfig.cache
+C:\Users\Diogo Timeware\Documents\Projetos\E3\platformservices\bin\Debug\net5.0\appsettings.Production.json

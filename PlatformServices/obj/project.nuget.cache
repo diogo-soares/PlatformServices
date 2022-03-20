@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yFcIsjLU+5HmEN2cV3kO/7rBbgl8Q8tPv15WnIxdgSfY0XMkxJ9Fq/iPHPdn5L46aJxt6G/SlgF6nDNEFvQTAw==",
+  "dgSpecHash": "7HuI84UBamWFY9BoSSeB4GdYt+bk6yzkrOVMhAT62Vf/HADkGxQXhjFQLSxkfdSudMVabydZwBGgC+hb93lxrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\PlatformServices\\PlatformServices.csproj",
+  "projectFilePath": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\platformservices\\PlatformServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
