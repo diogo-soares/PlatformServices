@@ -19,7 +19,6 @@ namespace PlatformServices.SyncDataServices.Http
             _configuration = configuration;
         }
 
-
         public async Task SendPlatformToCommand(PlatformReadDto plat)
         {
             var httpContent = new StringContent(
