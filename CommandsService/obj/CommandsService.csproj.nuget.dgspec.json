@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\commandsservice\\CommandsService.csproj": {}
+    "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\CommandsService\\CommandsService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\commandsservice\\CommandsService.csproj": {
+    "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\CommandsService\\CommandsService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\commandsservice\\CommandsService.csproj",
+        "projectUniqueName": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\CommandsService\\CommandsService.csproj",
         "projectName": "CommandsService",
-        "projectPath": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\commandsservice\\CommandsService.csproj",
+        "projectPath": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\CommandsService\\CommandsService.csproj",
         "packagesPath": "C:\\Users\\Diogo Timeware\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\commandsservice\\obj\\",
+        "outputPath": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\CommandsService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v35yLc/GBnqJzYMUfhjPW0xa+1dMqkFcVSTRBKiI6LGWjxG9McXD8pwsMl4apq59a1uUL29Dx3FYH5ZY3Fiwtg==",
+  "dgSpecHash": "6S5EdcLaUOfJxF1q8kOLYTpn55avy927LShKY1P5uNf006IQOu7m6+Meyine6EYPL3oFB64YYQUjhEI7kGH26Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\commandsservice\\CommandsService.csproj",
+  "projectFilePath": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\CommandsService\\CommandsService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

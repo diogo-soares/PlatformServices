@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\PlatformServices\\PlatformServices.csproj": {}
+    "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\platformservices\\PlatformServices.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\PlatformServices\\PlatformServices.csproj": {
+    "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\platformservices\\PlatformServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\PlatformServices\\PlatformServices.csproj",
+        "projectUniqueName": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\platformservices\\PlatformServices.csproj",
         "projectName": "PlatformServices",
-        "projectPath": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\PlatformServices\\PlatformServices.csproj",
+        "projectPath": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\platformservices\\PlatformServices.csproj",
         "packagesPath": "C:\\Users\\Diogo Timeware\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\PlatformServices\\obj\\",
+        "outputPath": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\platformservices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
