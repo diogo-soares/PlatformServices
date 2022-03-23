@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\platformservices\\PlatformServices.csproj": {}
+    "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\PlatformServices\\PlatformServices.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\platformservices\\PlatformServices.csproj": {
+    "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\PlatformServices\\PlatformServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\platformservices\\PlatformServices.csproj",
+        "projectUniqueName": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\PlatformServices\\PlatformServices.csproj",
         "projectName": "PlatformServices",
-        "projectPath": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\platformservices\\PlatformServices.csproj",
+        "projectPath": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\PlatformServices\\PlatformServices.csproj",
         "packagesPath": "C:\\Users\\Diogo Timeware\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\platformservices\\obj\\",
+        "outputPath": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\PlatformServices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,6 +65,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.8, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
