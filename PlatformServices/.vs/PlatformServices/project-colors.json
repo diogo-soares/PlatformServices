@@ -15,7 +15,17 @@
       "ProjectGuid": "3e9e739e-2bc5-476c-9761-f0bf6133249b",
       "DisplayName": "PlatformServices",
       "ColorIndex": 2
+    },
+    "38b5d567-86be-4e5d-adf2-02a54fdf9f28": {
+      "ProjectGuid": "38b5d567-86be-4e5d-adf2-02a54fdf9f28",
+      "DisplayName": "PlatformServices",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }

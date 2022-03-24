@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6S5EdcLaUOfJxF1q8kOLYTpn55avy927LShKY1P5uNf006IQOu7m6+Meyine6EYPL3oFB64YYQUjhEI7kGH26Q==",
+  "dgSpecHash": "dr/Qa/rmUrAlWdBsBW3I4QaVFzdY+3W8SXOA9MRUX/dPxgdPgrkLdXA44094KuSGPFdaKbzzSVJJQ7rbE4lAow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\CommandsService\\CommandsService.csproj",
+  "projectFilePath": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\commandsservice\\CommandsService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
@@ -25,13 +25,16 @@
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Diogo Timeware\\.nuget\\packages\\rabbitmq.client\\6.2.4\\rabbitmq.client.6.2.4.nupkg.sha512",
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
-    "C:\\Users\\Diogo Timeware\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\Diogo Timeware\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Diogo Timeware\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Diogo Timeware\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }

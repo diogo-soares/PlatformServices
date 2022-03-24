@@ -34,3 +34,5 @@ C:\Users\Diogo Timeware\Documents\Projetos\E3\CommandsService\obj\Debug\net6.0\C
 C:\Users\Diogo Timeware\Documents\Projetos\E3\CommandsService\obj\Debug\net6.0\ref\CommandsService.dll
 C:\Users\Diogo Timeware\Documents\Projetos\E3\CommandsService\obj\Debug\net6.0\CommandsService.pdb
 C:\Users\Diogo Timeware\Documents\Projetos\E3\CommandsService\obj\Debug\net6.0\CommandsService.genruntimeconfig.cache
+C:\Users\Diogo Timeware\Documents\Projetos\E3\commandsservice\bin\Debug\net6.0\appsettings.Production.json
+C:\Users\Diogo Timeware\Documents\Projetos\E3\commandsservice\bin\Debug\net6.0\RabbitMQ.Client.dll

@@ -33,6 +33,11 @@ namespace CommandsService.Data
             _context.Platforms.Add(plat);
         }
 
+        public bool ExternalPlatformExist(int externalPlatformId)
+        {
+            return _context.Platforms.Any(p => p.ExternalID == externalPlatformId);
+        }
+
         public IEnumerable<Platform> GetallPlatform()
         {
             return _context.Platforms.ToList();
