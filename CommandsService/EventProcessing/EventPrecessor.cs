@@ -6,7 +6,7 @@ using CommandsService.Models;
 
 namespace commandsservice.EventProcessing
 {
-    public class EventPrecessor : IEventPrecessor
+    public class EventPrecessor : IEventProcessor
     {
         private readonly IServiceScopeFactory _scopeFactory;
         private readonly IMapper _mapper;

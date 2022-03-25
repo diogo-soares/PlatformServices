@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace commandsservice.EventProcessing
 {
-    public interface IEventPrecessor
+    public interface IEventProcessor
     {
         void ProcessEvent(string message);
     }

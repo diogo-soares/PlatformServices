@@ -17,7 +17,9 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddDbContext<AppDbContext>(opt => opt.UseInMemoryDatabase("InMen"));
 
 builder.Services.AddScoped<ICommandRepo, CommandRepo>();
-builder.Services.AddScoped<IEventPrecessor, EventPrecessor>();
+builder.Services.AddSingleton<IEventProcessor, EventPrecessor>();
+
+builder.Services.AddHostedService<MessageBusSubscriber>();
 
 builder.Services.AddHostedService<MessageBusSubscriber>();
 
@@ -37,3 +39,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+

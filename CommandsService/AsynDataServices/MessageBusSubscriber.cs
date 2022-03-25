@@ -1,32 +1,33 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using commandsservice.EventProcessing;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
+using System.Text;
 
 namespace CommandsService.AsynDataServices
 {
     public class MessageBusSubscriber : BackgroundService
     {
         private readonly IConfiguration _configuration;
-        private readonly IEventPrecessor _eventProcessor;
+        private readonly IEventProcessor _eventProcessor;
         private IConnection _connection;
         private IModel _channel;
         private string _queueName;
 
-        public MessageBusSubscriber(IConfiguration configuration, IEventPrecessor eventProcessor)
+        public IConfiguration Configuration => _configuration;
+
+        public MessageBusSubscriber(
+            IConfiguration configuration,
+            IEventProcessor eventProcessor)
         {
             _configuration = configuration;
             _eventProcessor = eventProcessor;
+
+            InitializeRabbitMQ();
         }
 
         private void InitializeRabbitMQ()
         {
-            var factory = new ConnectionFactory()
-            { HostName = _configuration["RabbitMQHost"], Port = int.Parse(_configuration["RabbitMQPort"]) };
+            var factory = new ConnectionFactory() { HostName = _configuration["RabbitMQHost"], Port = int.Parse(_configuration["RabbitMQPort"]) };
 
             _connection = factory.CreateConnection();
             _channel = _connection.CreateModel();
@@ -40,7 +41,6 @@ namespace CommandsService.AsynDataServices
 
             _connection.ConnectionShutdown += RabbitMQ_ConnectionShitdown;
         }
-
 
         protected override Task ExecuteAsync(CancellationToken stoppingToken)
         {
@@ -68,7 +68,6 @@ namespace CommandsService.AsynDataServices
             Console.WriteLine("--> Connection Shutdown");
         }
 
-
         public override void Dispose()
         {
             if (_channel.IsOpen)
@@ -79,6 +78,5 @@ namespace CommandsService.AsynDataServices
 
             base.Dispose();
         }
-
     }
 }
