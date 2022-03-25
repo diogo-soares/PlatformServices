@@ -6,11 +6,12 @@ using CommandsService.Models;
 
 namespace commandsservice.EventProcessing
 {
-    public class EventPrecessor : IEventProcessor
+    
+    public class EventProcessor : IEventProcessor
     {
         private readonly IServiceScopeFactory _scopeFactory;
         private readonly IMapper _mapper;
-        public EventPrecessor(IServiceScopeFactory scopeFactory, IMapper mapper)
+        public EventProcessor(IServiceScopeFactory scopeFactory, AutoMapper.IMapper mapper)
         {
             _scopeFactory = scopeFactory;
             _mapper = mapper;
@@ -18,30 +19,31 @@ namespace commandsservice.EventProcessing
 
         public void ProcessEvent(string message)
         {
-            var eventType = DeterminateEvent(message);
+            var eventType = DetermineEvent(message);
 
             switch (eventType)
             {
                 case EventType.PlatformPublished:
+                    addPlatform(message);
                     break;
                 default:
                     break;
             }
         }
 
-        private EventType DeterminateEvent(string notificationMessage)
+        private EventType DetermineEvent(string notifcationMessage)
         {
-            Console.WriteLine("--> Determing Event");
+            Console.WriteLine("--> Determining Event");
 
-            var eventType = JsonSerializer.Deserialize<GenericEventDto>(notificationMessage);
+            var eventType = JsonSerializer.Deserialize<GenericEventDto>(notifcationMessage);
 
             switch (eventType.Event)
             {
-                case "Platform_Publisherd":
+                case "Platform_Published":
                     Console.WriteLine("--> Platform Published Event Detected");
                     return EventType.PlatformPublished;
                 default:
-                    Console.WriteLine("--> Could not determinate the event type");
+                    Console.WriteLine("--> Could not determine the event type");
                     return EventType.Undetermined;
             }
         }
@@ -82,6 +84,4 @@ namespace commandsservice.EventProcessing
         PlatformPublished,
         Undetermined
     }
-
-
 }
