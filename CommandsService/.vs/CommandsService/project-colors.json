@@ -10,7 +10,12 @@
       "ProjectGuid": "4a62cc82-92ee-48ad-bb87-b0d9e4b4f76d",
       "DisplayName": "CommandsService",
       "ColorIndex": 1
+    },
+    "a2dce3b4-0b11-43dd-8914-171485274413": {
+      "ProjectGuid": "a2dce3b4-0b11-43dd-8914-171485274413",
+      "DisplayName": "CommandsService",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }
