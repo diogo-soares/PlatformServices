@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\PlatformServices\\PlatformServices.csproj": {}
+    "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\platformservices\\PlatformServices.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\PlatformServices\\PlatformServices.csproj": {
+    "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\platformservices\\PlatformServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\PlatformServices\\PlatformServices.csproj",
+        "projectUniqueName": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\platformservices\\PlatformServices.csproj",
         "projectName": "PlatformServices",
-        "projectPath": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\PlatformServices\\PlatformServices.csproj",
+        "projectPath": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\platformservices\\PlatformServices.csproj",
         "packagesPath": "C:\\Users\\Diogo Timeware\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\PlatformServices\\obj\\",
+        "outputPath": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\platformservices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -47,6 +47,24 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.1.1, )"
+            },
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.19.4, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.44.0, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.44.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.45.0, )"
             },
             "Microsoft.EntityFrameWorkCore": {
               "target": "Package",
