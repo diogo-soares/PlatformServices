@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "dr/Qa/rmUrAlWdBsBW3I4QaVFzdY+3W8SXOA9MRUX/dPxgdPgrkLdXA44094KuSGPFdaKbzzSVJJQ7rbE4lAow==",
+  "dgSpecHash": "44WQkQlInVpQuBcw2J+rH06tH9aSzZfxhPkNfbY6e5b4+ujvNbdjTOnFMJ+WOkTkfIumLq6+cTzHA0T06Fsq/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\commandsservice\\CommandsService.csproj",
+  "projectFilePath": "C:\\Users\\Diogo Timeware\\Documents\\Projetos\\E3\\CommandsService\\CommandsService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Diogo Timeware\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
+    "C:\\Users\\Diogo Timeware\\.nuget\\packages\\grpc.core.api\\2.44.0\\grpc.core.api.2.44.0.nupkg.sha512",
+    "C:\\Users\\Diogo Timeware\\.nuget\\packages\\grpc.net.client\\2.44.0\\grpc.net.client.2.44.0.nupkg.sha512",
+    "C:\\Users\\Diogo Timeware\\.nuget\\packages\\grpc.net.common\\2.44.0\\grpc.net.common.2.44.0.nupkg.sha512",
+    "C:\\Users\\Diogo Timeware\\.nuget\\packages\\grpc.tools\\2.45.0\\grpc.tools.2.45.0.nupkg.sha512",
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Diogo Timeware\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.3\\microsoft.entityframeworkcore.6.0.3.nupkg.sha512",

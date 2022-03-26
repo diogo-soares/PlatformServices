@@ -36,3 +36,7 @@ C:\Users\Diogo Timeware\Documents\Projetos\E3\CommandsService\obj\Debug\net6.0\C
 C:\Users\Diogo Timeware\Documents\Projetos\E3\CommandsService\obj\Debug\net6.0\CommandsService.genruntimeconfig.cache
 C:\Users\Diogo Timeware\Documents\Projetos\E3\commandsservice\bin\Debug\net6.0\appsettings.Production.json
 C:\Users\Diogo Timeware\Documents\Projetos\E3\commandsservice\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Diogo Timeware\Documents\Projetos\E3\CommandsService\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\Diogo Timeware\Documents\Projetos\E3\CommandsService\bin\Debug\net6.0\Grpc.Core.Api.dll
+C:\Users\Diogo Timeware\Documents\Projetos\E3\CommandsService\bin\Debug\net6.0\Grpc.Net.Client.dll
+C:\Users\Diogo Timeware\Documents\Projetos\E3\CommandsService\bin\Debug\net6.0\Grpc.Net.Common.dll
