@@ -1,6 +1,7 @@
 using commandsservice.EventProcessing;
 using CommandsService.AsynDataServices;
 using CommandsService.Data;
+using CommandsService.SyncDataServices.Grpc;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +14,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddScoped<IPlatformDataClient, PlatformDataClient>();
 
 builder.Services.AddDbContext<AppDbContext>(opt => opt.UseInMemoryDatabase("InMen"));
 
@@ -32,6 +34,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+PreDb.PrepPopulation(app);
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
@@ -39,4 +43,3 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-
