@@ -12,9 +12,12 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using PlatformServices.SyncDataServices.Grpc;
 using PlatformServices.AsyncDataServices;
 using PlatformServices.Data;
 using PlatformServices.SyncDataServices.Http;
+using System.IO;
+using Microsoft.AspNetCore.Http;
 
 namespace PlatformServices
 {
@@ -50,6 +53,8 @@ namespace PlatformServices
             services.AddHttpClient<ICommandDataClient, HttpCommandDataClient>();
             services.AddSingleton<IMessageBusClient, MessageBusClient>();
 
+            services.AddGrpc();
+
             services.AddControllers();
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddSwaggerGen(c =>
@@ -79,6 +84,12 @@ namespace PlatformServices
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+                endpoints.MapGrpcService<GrpcPlatformService>();
+
+                endpoints.MapGet("/protos/platforms.proto", async context =>
+                {
+                    await context.Response.WriteAsync(File.ReadAllText("Protos/platforms.proto"));
+                });
             });
 
             PreDb.PrePopulation(app, env.IsProduction());
