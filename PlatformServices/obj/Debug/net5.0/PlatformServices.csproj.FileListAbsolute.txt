@@ -130,3 +130,10 @@ C:\Users\Diogo Timeware\Documents\Projetos\E3\PlatformServices\obj\Debug\net5.0\
 C:\Users\Diogo Timeware\Documents\Projetos\E3\PlatformServices\obj\Debug\net5.0\PlatformServices.pdb
 C:\Users\Diogo Timeware\Documents\Projetos\E3\PlatformServices\obj\Debug\net5.0\PlatformServices.genruntimeconfig.cache
 C:\Users\Diogo Timeware\Documents\Projetos\E3\PlatformServices\obj\Debug\net5.0\PlatformServices.csproj.AssemblyReference.cache
+C:\Users\Diogo Timeware\Documents\Projetos\E3\platformservices\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\Diogo Timeware\Documents\Projetos\E3\platformservices\bin\Debug\net5.0\Grpc.AspNetCore.Server.dll
+C:\Users\Diogo Timeware\Documents\Projetos\E3\platformservices\bin\Debug\net5.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\Diogo Timeware\Documents\Projetos\E3\platformservices\bin\Debug\net5.0\Grpc.Core.Api.dll
+C:\Users\Diogo Timeware\Documents\Projetos\E3\platformservices\bin\Debug\net5.0\Grpc.Net.Client.dll
+C:\Users\Diogo Timeware\Documents\Projetos\E3\platformservices\bin\Debug\net5.0\Grpc.Net.ClientFactory.dll
+C:\Users\Diogo Timeware\Documents\Projetos\E3\platformservices\bin\Debug\net5.0\Grpc.Net.Common.dll

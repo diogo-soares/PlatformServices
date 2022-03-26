@@ -13,6 +13,8 @@ namespace PlatformServices.Profiles
             CreateMap<PlatformCreateDto, Platform>();
 
             CreateMap<PlatformReadDto, PlatformPublishedDto>();
+
+            CreateMap<Platform, GrpcPlatformModel>();
         }
     }
 }
